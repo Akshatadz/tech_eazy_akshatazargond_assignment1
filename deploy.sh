@@ -24,3 +24,4 @@ sleep 900
 echo "🛑 Stopping instance to save cost..."
 aws ec2 stop-instances --instance-ids $INSTANCE_ID
 echo "✅ Instance $INSTANCE_ID stopped."
+# Minor update for PR
